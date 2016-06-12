@@ -32,7 +32,7 @@
             <br>
             <div class="form-group">
                 <label for="c_input">Amount</label>
-                <input type="number" step="0.01" class="form-control" name="camount" required=""/>
+                <input type="number" step="any" class="form-control" name="camount" required=""/>
             </div>
             <br>
             <input type="submit" value="Convert" name="convert" class="btn btn-success"  />
