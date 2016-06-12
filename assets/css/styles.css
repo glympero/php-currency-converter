@@ -1,0 +1,24 @@
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+select {
+    font-size: 1.5em;
+}
+
+.form-group{
+    display: inline-block;
+}
+
+#result{
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
+
