@@ -8,7 +8,7 @@
         //Validate and filter input data
 		$from   = filter_input(INPUT_POST, 'from', FILTER_SANITIZE_SPECIAL_CHARS, FILTER_SANITIZE_ENCODED) ;
         $to     = filter_input(INPUT_POST, 'to', FILTER_SANITIZE_SPECIAL_CHARS, FILTER_SANITIZE_ENCODED) ;
-        $camount = filter_input(INPUT_POST, 'camount', FILTER_VALIDATE_INT);
+        $camount = filter_input(INPUT_POST, 'camount', FILTER_VALIDATE_FLOAT);
         //Get the absolute value of the amount to convert
         $amount = abs($camount);
         
