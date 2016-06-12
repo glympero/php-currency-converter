@@ -27,7 +27,7 @@
                         //Get the exchange rate and convert the value that needs to be converted
                         $result = $amount * $rate['rate'];
                         echo "<div class='alert alert-success'>";
-                        echo $rate['from']. " ==> " .$result. " " .$rate['to'];
+                        echo $amount. " " .$rate['from']. " = " .$result. " " .$rate['to'];
                         echo "</div>";
                         $rateFound = true;
                         
